@@ -158,7 +158,7 @@ write.csv(x = bien.data.clean, "bien_auto_clean.csv", sep='\t',row.names = F) #f
 #This stage was not performed in R, instead a GIS was used to plot the automated cleaned records and outliers were removed by eye. See the methods section in the accompanying manuscript for further details.
 
 
-#STEP 5: Computation of threat categories using rCAT (Moat )
+#STEP 5: Computation of threat categories using rCAT (Moat, 2020)
 
 install.packages("sp")
 install.packages("rCAT")
